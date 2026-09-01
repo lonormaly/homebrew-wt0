@@ -4,7 +4,8 @@ Homebrew tap for [Worktree Zero](https://github.com/lonormaly/worktree-zero) —
 copy-on-write Git worktrees with a full runtime lifecycle for coding agents.
 
 ```bash
-brew install lonormaly/wt0/wt0
+brew tap lonormaly/wt0
+brew install wt0
 ```
 
 Installs the prebuilt, checksummed release binary for macOS (Apple Silicon and
