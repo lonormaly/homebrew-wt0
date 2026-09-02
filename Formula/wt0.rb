@@ -1,26 +1,26 @@
 class Wt0 < Formula
   desc "Copy-on-write Git worktrees with a full runtime lifecycle for coding agents"
   homepage "https://github.com/lonormaly/worktree-zero"
-  version "0.1.14"
+  version "0.1.15"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/lonormaly/worktree-zero/releases/download/v#{version}/wt0-aarch64-apple-darwin.tar.gz"
-      sha256 "36dd92185cea6f57d12df593561b6b421437440da3bf1c5fca320a22156ab2c1"
+      sha256 "60e71ff848e7f2999d1938f0aa95eaca79f4926a9eddb97d59eff3bae934a860"
     else
       url "https://github.com/lonormaly/worktree-zero/releases/download/v#{version}/wt0-x86_64-apple-darwin.tar.gz"
-      sha256 "8dc11335cdfdc6ea7360310829c04e3041a35aa920facdd321283ad53e1fed82"
+      sha256 "caec11bd022d6b7ad1772543ee2945c1786171d89792d60df0fa9eea97f73869"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/lonormaly/worktree-zero/releases/download/v#{version}/wt0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f170c145c892cfbee0af145ddb21370506419e361fc9439dbf072aa373fbe351"
+      sha256 "5c53bbf5d7518e576937c68efe5f97ab154ec786ab65cf1caf0954f64e7e4416"
     else
       url "https://github.com/lonormaly/worktree-zero/releases/download/v#{version}/wt0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "baa8de212c98702ed6cb6bac068a1fad97a77186da8ef2fbdfcc89ed4cc39625"
+      sha256 "19a1c4a4b88f49525e430d50c49401fbf430367d77a6b160f129ded60237f99c"
     end
   end
 
