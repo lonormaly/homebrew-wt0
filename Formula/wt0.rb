@@ -5,21 +5,21 @@ class Wt0 < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lonormaly/worktree-zero/releases/download/v0.1.19/wt0-aarch64-apple-darwin.tar.gz"
-      sha256 "709ac026ec9c5c898e71ddcaae9892c76aa587572082e6fe4fcbf0e52149631b"
+      url "https://github.com/lonormaly/worktree-zero/releases/download/v0.1.20/wt0-aarch64-apple-darwin.tar.gz"
+      sha256 "a1bb7275d0229d4929eafe789efea4855cd94bebb4b2e598087f9fc5b2634f93"
     else
-      url "https://github.com/lonormaly/worktree-zero/releases/download/v0.1.19/wt0-x86_64-apple-darwin.tar.gz"
-      sha256 "74b37ebcd928e0ae5c8ed84a6d842189f955a53f545faa53ee4ea8083b9bc1a6"
+      url "https://github.com/lonormaly/worktree-zero/releases/download/v0.1.20/wt0-x86_64-apple-darwin.tar.gz"
+      sha256 "4445d65038789ee48752c93d786bfc9c279dac9b269fc3e6df71a1db26afe7e4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lonormaly/worktree-zero/releases/download/v0.1.19/wt0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "97e35aeb5d41f6b3266741ceb1b2ea15a4f03c9ea75ecaa8ec719ba0f028c1b1"
+      url "https://github.com/lonormaly/worktree-zero/releases/download/v0.1.20/wt0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9edc6e50a0909de667937c920a6dbfcdcb529240dcd8807e114e197b6f554811"
     else
-      url "https://github.com/lonormaly/worktree-zero/releases/download/v0.1.19/wt0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b39b11a8f56d43f9a8f055181a905d3de30299558a5e96c7267409d8592f6d2d"
+      url "https://github.com/lonormaly/worktree-zero/releases/download/v0.1.20/wt0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1c48093ec5ab796cf4149605b76b9ad7133c3833a88f99adbe20bc9eee447ec0"
     end
   end
 
